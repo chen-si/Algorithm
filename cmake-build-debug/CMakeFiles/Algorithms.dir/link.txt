@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o  -o Algorithms 
