@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/liu/CLionProjects/Algorithms/Chapter2/HornerLule.cpp">
+		<Unit filename="/home/liu/CLionProjects/Algorithms/Chapter6/testHeapSort.cpp">
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/home/liu/CLionProjects/Algorithms/CMakeLists.txt">

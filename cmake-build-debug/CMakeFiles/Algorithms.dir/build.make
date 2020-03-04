@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/Algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithms.dir/flags.make
 
-CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o: CMakeFiles/Algorithms.dir/flags.make
-CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o: ../Chapter2/HornerLule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o -c /home/liu/CLionProjects/Algorithms/Chapter2/HornerLule.cpp
+CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o: ../Chapter6/testHeapSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liu/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o -c /home/liu/CLionProjects/Algorithms/Chapter6/testHeapSort.cpp
 
-CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/CLionProjects/Algorithms/Chapter2/HornerLule.cpp > CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.i
+CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liu/CLionProjects/Algorithms/Chapter6/testHeapSort.cpp > CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.i
 
-CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/CLionProjects/Algorithms/Chapter2/HornerLule.cpp -o CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.s
+CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liu/CLionProjects/Algorithms/Chapter6/testHeapSort.cpp -o CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.s
 
 # Object files for target Algorithms
 Algorithms_OBJECTS = \
-"CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o"
+"CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o"
 
 # External object files for target Algorithms
 Algorithms_EXTERNAL_OBJECTS =
 
-Algorithms: CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o
+Algorithms: CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o
 Algorithms: CMakeFiles/Algorithms.dir/build.make
 Algorithms: CMakeFiles/Algorithms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liu/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithms"

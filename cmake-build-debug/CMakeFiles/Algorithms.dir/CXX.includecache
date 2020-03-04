@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/liu/CLionProjects/Algorithms/Chapter2/HornerLule.cpp
+/home/liu/CLionProjects/Algorithms/Chapter6/testHeapSort.cpp
 iostream
+-
+cmath
+-
+cstring
 -
 

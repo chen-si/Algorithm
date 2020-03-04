@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Algorithms Chapter2/HornerLule.cpp)
+add_executable(Algorithms Chapter6/testHeapSort.cpp)

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "Algorithms"
   "Algorithms.pdb"
-  "CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o"
+  "CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

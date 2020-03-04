@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/liu/CLionProjects/Algorithms/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/liu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ Algorithms/fast:
 	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
-Chapter2/HornerLule.o: Chapter2/HornerLule.cpp.o
+Chapter6/testHeapSort.o: Chapter6/testHeapSort.cpp.o
 
-.PHONY : Chapter2/HornerLule.o
+.PHONY : Chapter6/testHeapSort.o
 
 # target to build an object file
-Chapter2/HornerLule.cpp.o:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.o
-.PHONY : Chapter2/HornerLule.cpp.o
+Chapter6/testHeapSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.o
+.PHONY : Chapter6/testHeapSort.cpp.o
 
-Chapter2/HornerLule.i: Chapter2/HornerLule.cpp.i
+Chapter6/testHeapSort.i: Chapter6/testHeapSort.cpp.i
 
-.PHONY : Chapter2/HornerLule.i
+.PHONY : Chapter6/testHeapSort.i
 
 # target to preprocess a source file
-Chapter2/HornerLule.cpp.i:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.i
-.PHONY : Chapter2/HornerLule.cpp.i
+Chapter6/testHeapSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.i
+.PHONY : Chapter6/testHeapSort.cpp.i
 
-Chapter2/HornerLule.s: Chapter2/HornerLule.cpp.s
+Chapter6/testHeapSort.s: Chapter6/testHeapSort.cpp.s
 
-.PHONY : Chapter2/HornerLule.s
+.PHONY : Chapter6/testHeapSort.s
 
 # target to generate assembly for a file
-Chapter2/HornerLule.cpp.s:
-	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter2/HornerLule.cpp.s
-.PHONY : Chapter2/HornerLule.cpp.s
+Chapter6/testHeapSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Chapter6/testHeapSort.cpp.s
+.PHONY : Chapter6/testHeapSort.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Algorithms"
 	@echo "... edit_cache"
-	@echo "... Chapter2/HornerLule.o"
-	@echo "... Chapter2/HornerLule.i"
-	@echo "... Chapter2/HornerLule.s"
+	@echo "... Chapter6/testHeapSort.o"
+	@echo "... Chapter6/testHeapSort.i"
+	@echo "... Chapter6/testHeapSort.s"
 .PHONY : help
 
 
